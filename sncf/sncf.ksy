@@ -47,11 +47,11 @@ seq:
   - id: departure_station
     type: str
     size: 5
-    doc: "5-character departure Benerail station ID"
+    doc: "5-character departure SNCF station ID"
   - id: arrival_station
     type: str
     size: 5
-    doc: "5-character arrival Benerail station ID"
+    doc: "5-character arrival SNCF station ID"
   - id: train_number
     type: str
     size: 5
@@ -87,11 +87,11 @@ seq:
   - id: departure_station_return
     type: str
     size: 5
-    doc: "5-character departure Benerail station ID"
+    doc: "5-character departure SNCF station ID"
   - id: arrival_station_return
     type: str
     size: 5
-    doc: "5-character arrival Benerail station ID"
+    doc: "5-character arrival SNCF station ID"
   - id: train_number_return
     type: str
     size: 5
